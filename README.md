@@ -25,9 +25,7 @@ $ tree
 
 ### `Installation`
 
-To use Terraform you will need to install it. HashiCorp distributes Terraform as a binary package. You can also install Terraform using popular package managers.
-
-Use the Terraform documentation [download](https://www.terraform.io/) to install Terraform on your machine.
+To use Terraform you will need to install it. HashiCorp distributes Terraform as a binary package. You can also install [Terraform](https://www.terraform.io/) using popular package managers.
 
 1. Install `yum-config-manager` to manage your repositories.
 ```bash
@@ -44,13 +42,14 @@ $ sudo yum -y install terraform
 
 ### `Usage`
 
-Install Terraform.
-Set your AWS credentials as the environment variables AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY.
-cd into one of the example folders.
-Run terraform init.
-Run terraform apply.
-After it's done deploying, the example will output URLs or IPs you can try out.
-To clean up and delete all resources after you're done, run terraform destroy.
+1. Make sure you have visited the Terraform documentation before to start.
+2. Set your AWS credentials as the environment variables `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`.
+3. Go to your Terraform project folder.
+4. Run `terraform init`.
+5. Run `terraform-plan`.
+6. Run `terraform-apply`
+7. To clean up and delete all resources after you're done, run `terraform destroy`.
+
 
 ### `Contributing`
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
