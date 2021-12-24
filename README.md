@@ -2,10 +2,10 @@
 
 A easy way project about how you can provision an EC2 instance using `local-exec` command to get private IP with `output` on Terraform.
 
-### `Content`
+### `Content` <!-- omit in toc -->
 
-[Note](#Note)
-[Terraform structure tree](#Terraform structure tree)
+[Note](#note)
+[Terraform structure tree](#Terraform-structure-tree)
 [Installation](#Installation)
 [Usage](#Usage)
 [Contributing](#Contributing)
