@@ -2,18 +2,17 @@
 
 A easy way project about how you can provision an EC2 instance using `local-exec` command to get private IP with `output` on Terraform.
 
-### Content
+### `Content`
+- [Note](#note)
+- [Terraform structure tree](#project-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
 
-[Note](#note)
-[Terraform structure tree](#terraform-structure-tree)
-[Installation](#installation)
-[Usage](#usage)
-[Contributing](#contributing)
-
-### Note
+### `Note`
 These examples deploy resources into your AWS account. Although all the resources should fall under the [AWS Free Tier](https://aws.amazon.com/pt/free), it is not me responsibility if you are charged money for this.
 
-### Terraform structure tree
+### `Project structure`
 
 ```bash
 $ tree
