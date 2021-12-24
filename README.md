@@ -2,6 +2,9 @@
 
 A easy way documentation about how you can provision a `local-exec` command with `output` on Terraform.
 
+### `Note`
+These examples deploy resources into your AWS account. Although all the resources should fall under the [AWS Free Tier](https://aws.amazon.com/pt/free), it is not me responsibility if you are charged money for this.
+
 ### `Terraform structure tree`
 
 ```bash
