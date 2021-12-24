@@ -2,17 +2,17 @@
 
 A easy way project about how you can provision an EC2 instance using `local-exec` command to get private IP with `output` on Terraform.
 
-### `Content`
+### Content
 - [Note](#note)
 - [Project structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 
-### `Note`
+### Note
 These examples deploy resources into your AWS account. Although all the resources should fall under the [AWS Free Tier](https://aws.amazon.com/pt/free), it is not me responsibility if you are charged money for this.
 
-### `Project structure`
+### Project structure
 
 ```bash
 $ tree
@@ -30,7 +30,7 @@ $ tree
 0 directories, 9 files
 ```
 
-### `Installation`
+### Installation
 
 To use Terraform you will need to install it. HashiCorp distributes Terraform as a binary package. You can also install [Terraform](https://www.terraform.io/) using popular package managers.
 
@@ -47,7 +47,7 @@ $ sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/has
 $ sudo yum -y install terraform
 ```
 
-### `Usage`
+### Usage
 
 1. Make sure you have visited the Terraform documentation before to start.
 2. Set your AWS credentials as the environment variables `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`.
@@ -58,7 +58,7 @@ $ sudo yum -y install terraform
 7. To clean up and delete all resources after you're done, run `terraform destroy`.
 
 
-### `Contributing`
+### Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
