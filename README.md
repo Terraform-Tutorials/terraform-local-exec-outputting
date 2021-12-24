@@ -4,7 +4,7 @@ A easy way project about how you can provision an EC2 instance using `local-exec
 
 ### `Content`
 - [Note](#note)
-- [Terraform structure tree](#project-structure)
+- [Project structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
